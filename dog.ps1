@@ -35,6 +35,9 @@ curl -Uri "$baseUrl/frame02.txt" -OutFile "$targetDirectory\frame02.txt" -UseBas
 Write-Host "Downloading mus_sigh_of_dog.mp3..."
 curl -Uri "$baseUrl/mus_sigh_of_dog.mp3" -OutFile "$targetDirectory\mus_sigh_of_dog.mp3" -UseBasicParsing
 
+Write-Host "Downloading sound.vbs..."
+curl -Uri "$baseUrl/sound.vbs" -OutFile "$targetDirectory\dog.cmd" -UseBasicParsing
+
 Write-Host "All downloads attempted."
 Write-Host "Files should be in: $targetDirectory"
 
