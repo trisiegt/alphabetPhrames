@@ -1,4 +1,5 @@
 @echo on
+cd %USERPROFILE%\Documents\cmdDogCheck
 chcp 65001
 cls
 set "file=mus_sigh_of_dog.mp3"
