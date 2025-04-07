@@ -1,4 +1,3 @@
-
 @echo on
 chcp 65001
 cls
@@ -111,3 +110,4 @@ cls
 type frame01.txt                                                                                                    
 timeout /t 1 /nobreak > NUL
 cls
+exit
