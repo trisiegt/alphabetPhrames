@@ -7,7 +7,6 @@ start /min sound.vbs
 cls
 goto dogframes
 
-
 :dogframes    
                    
 type frame01.txt                                                                                                    
