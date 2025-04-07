@@ -16,7 +16,6 @@ if (-not (Test-Path -Path $targetDirectory -PathType Container)) {
     Write-Host "Directory already exists: $targetDirectory"
 }
 
-
 # --- Download Files ---
 # Note: Using the 'curl' alias for Invoke-WebRequest. Ensure paths are correctly quoted.
 
